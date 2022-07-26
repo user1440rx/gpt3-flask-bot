@@ -11,6 +11,8 @@ This repository contains AI chat bot which uses autoregressive transformer langu
 
 ![bot](bot.png)
 
+## Update: Added React UI
+Changed flask routing to static/react-chat
+*Note: The front-end is using React (18.2.0) development version (not ready for production use).*
 
-
-
+![react-ui](bot-reactapp.jpg)
