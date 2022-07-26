@@ -3,11 +3,16 @@ body {
 }
 
 
-/* Chatbox css */
+#chatcontainer {
+    background-color: #000000;
+}
+
+
+/* Chatbox CSS */
 .chatbox-in {
-    background-color: #202c33 !important;
+    background-color: #191919 !important;
     height: 85%;
-    padding: 8px;
+    padding: 15px;
     margin-top: 10px;
     overflow-y: scroll;
     margin-left: auto;
@@ -22,7 +27,7 @@ body {
     padding: 6px 10px;
     border-radius: 25px 25px 0px 25px;
     position: relative;
-    background: #447225;
+    background: #015f76;
     color: white;
     font-size: 17px;
 }
@@ -42,7 +47,7 @@ body {
     padding: 6px 10px;
     border-radius: 25px 25px 25px 0px;
     position: relative;
-    background: #308f7a;
+    background: #383d47;
     color: white;
     font-size: 17px;
 }
@@ -61,9 +66,9 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 80%;
-    padding: 10px;
+    padding: 12px 10px 10px 10px;
     border-radius: 0px 0px 4px 4px ;
-    background-color: #308f7a;
+    background-color: #1a3241;
     display: flex;
 }
 
@@ -75,6 +80,8 @@ body {
     font-family: monospace;
     font-size: 18px;
     padding: 2px;
+    border-radius: 4px;
+    padding: 4px;
 }
 
 #chatView {
