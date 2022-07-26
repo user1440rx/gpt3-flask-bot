@@ -57,7 +57,7 @@ const botAPICall = async(textToSend, userText) => {
 
 return (
     <Container>
-        <Box id="chatcontainer" sx={{ bgcolor: '#cfe8fc', height: '80vh', borderRadius: '4px', paddingTop: '1px', paddingBottom: '1px' }}>
+        <Box id="chatcontainer" sx={{ height: '80vh', borderRadius: '4px', paddingTop: '1px', paddingBottom: '1px' }}>
             <Box className="chatbox-in" id="chatbox-in">
                 {eachText.map((etxt, key) => {
                     return <TheTextComponent key={key} text={etxt.text} type={etxt.type} />;
